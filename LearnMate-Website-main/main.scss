@@ -1,0 +1,145 @@
+* {
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.contLvl1 {
+  outline: solid blue;
+  width: 85vw;
+  margin: 0 auto;
+  #roundRect {
+    background: linear-gradient(91.5deg, #3ae395 42.59%, #52ea8f 57.87%);
+    box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+    border-width: 1px;
+    height: 75px;
+    outline: aqua;
+    z-index: 998;
+
+    .contLvl2 {
+      border: solid green;
+      width: 80%;
+      max-width: 1700px;
+      margin: 0 auto;
+
+      header {
+        .navItems {
+          z-index: 999;
+          justify-content: space-between;
+          align-items: center;
+          display: flex;
+          //outline: solid red;
+          height: 60%;
+          outline: solid pink;
+          padding: 10px 0 0 0;
+          margin: 0 auto;
+          top: 0px;
+          a {
+            font-size: 35px;
+            color: #259d66;
+            font-weight: 700;
+            outline: solid yellow;
+          }
+          nav {
+            outline: solid yellow;
+            box-sizing: border-box;
+            ul {
+              outline: solid gray;
+              margin: 0 0 0 0;
+              display: flex;
+              justify-content: space-between;
+              list-style-type: none;
+              padding: 0;
+              .navButtons {
+                align-items: center;
+                display: flex;
+                li {
+                  outline: solid gray;
+
+                  a {
+                    color: #3bb76e;
+                    font-weight: 600;
+                    font-size: 1.875rem;
+                    width: 100%;
+
+                    #buyButtonMain {
+                      background-color: white;
+                      border-radius: 7px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .mainHero {
+        justify-content: center;
+        .heroTitle {
+          text-align: center;
+          h2 {
+            font-weight: 400;
+            color: #737373;
+            font-size: 40px;
+            margin: 0 auto;
+            padding: 5% 0 0 0;
+            position: relative;
+            top: 30px;
+          }
+          h1 {
+            font-size: 100px;
+            margin: 0 auto;
+            color: #23c682;
+            box-sizing: content-box;
+          }
+        }
+        #mainImage {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 80%;
+          }
+        }
+        .heroMainButtons {
+          font-size: 22px;
+          border-color: #00a478;
+          border-radius: 17px;
+          display: flex;
+          justify-content: center;
+          #mainButton {
+            background-color: #35d38a;
+          }
+        }
+      }
+
+      .overview {
+        #overviewBkg {
+          position: absolute;
+          background-color: #f6f6f6;
+          border-radius: 60px;
+          width: auto;
+
+          .info {
+            text-align: center;
+            h1 {
+              font-size: 100px;
+              color: #797979;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .contLvl1 {
+    #roundRect {
+      border-radius: 0px;
+    }
+  }
+  body {
+    margin: 0;
+    .contLvl1 {
+      width: 100vw;
+    }
+  }
+}

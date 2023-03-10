@@ -1,0 +1,134 @@
+* {
+  text-decoration: none;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.contLvl1 {
+  outline: solid blue;
+  width: 85vw;
+  margin: 0 auto;
+}
+.contLvl1 #roundRect {
+  background: linear-gradient(91.5deg, #3ae395 42.59%, #52ea8f 57.87%);
+  box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  border-width: 1px;
+  height: 75px;
+  outline: aqua;
+  z-index: 998;
+}
+.contLvl1 #roundRect .contLvl2 {
+  border: solid green;
+  width: 80%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems {
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 60%;
+  outline: solid pink;
+  padding: 10px 0 0 0;
+  margin: 0 auto;
+  top: 0px;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems a {
+  font-size: 35px;
+  color: #259d66;
+  font-weight: 700;
+  outline: solid yellow;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems nav {
+  outline: solid yellow;
+  box-sizing: border-box;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems nav ul {
+  outline: solid gray;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems nav ul .navButtons {
+  align-items: center;
+  display: flex;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems nav ul .navButtons li {
+  outline: solid gray;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems nav ul .navButtons li a {
+  color: #3bb76e;
+  font-weight: 600;
+  font-size: 1.875rem;
+  width: 100%;
+}
+.contLvl1 #roundRect .contLvl2 header .navItems nav ul .navButtons li a #buyButtonMain {
+  background-color: white;
+  border-radius: 7px;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero {
+  justify-content: center;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero .heroTitle {
+  text-align: center;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero .heroTitle h2 {
+  font-weight: 400;
+  color: #737373;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 5% 0 0 0;
+  position: relative;
+  top: 30px;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero .heroTitle h1 {
+  font-size: 100px;
+  margin: 0 auto;
+  color: #23c682;
+  box-sizing: content-box;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero #mainImage {
+  display: flex;
+  justify-content: center;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero #mainImage img {
+  width: 80%;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero .heroMainButtons {
+  font-size: 22px;
+  border-color: #00a478;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+}
+.contLvl1 #roundRect .contLvl2 .mainHero .heroMainButtons #mainButton {
+  background-color: #35d38a;
+}
+.contLvl1 #roundRect .contLvl2 .overview #overviewBkg {
+  position: absolute;
+  background-color: #f6f6f6;
+  border-radius: 60px;
+  width: auto;
+}
+.contLvl1 #roundRect .contLvl2 .overview #overviewBkg .info {
+  text-align: center;
+}
+.contLvl1 #roundRect .contLvl2 .overview #overviewBkg .info h1 {
+  font-size: 100px;
+  color: #797979;
+}
+
+@media (max-width: 1200px) {
+  .contLvl1 #roundRect {
+    border-radius: 0px;
+  }
+  body {
+    margin: 0;
+  }
+  body .contLvl1 {
+    width: 100vw;
+  }
+}/*# sourceMappingURL=main.css.map */
